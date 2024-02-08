@@ -1,0 +1,231 @@
+header {
+    --header-hight:clamp(100px ,4vw , 150px);
+    height: var(--header-hight);
+    .website-logo {
+        img {
+width: 164px;
+height: 47px;
+        }
+    }
+    .navlinks {
+        gap:clamp(30px ,4vw,72px );
+        .nav_link{
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #444f3c; 
+        }
+    }
+}
+.hero {
+    min-height: calc(100vh - clamp(100px ,4vw , 150px));
+    display: grid;
+    place-items: center;
+    .hero-titel  {
+font-size:clamp(40px ,6vw , 72px);
+font-weight: 400;
+line-height:clamp(45px ,6vw , 82px);
+color: #45503D;
+;
+    }
+    .hero-discrption {
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+color: #9A998E;
+margin-block: clamp( 30px, 4vw, 60px);
+    }
+    .big-primery-button  {
+        --button-color:#f5f6f3;
+        --button-background:#4da60d;
+        
+        color:var(--button-color);
+        background:var(--button-background);
+        display: inline-block;
+        padding: 24px 32px 24px 32px;
+        border-radius: 4px;
+        gap: 10px;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+    }
+    .big-outline-button  {
+        display: inline-block;
+padding: 24px 32px 24px 32px;
+border-radius: 4px;
+border: 1px solid #45503D;
+gap: 10px;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+color: #45503D;
+    }
+}
+
+.dmain-tab {
+min-height:410px;
+display: grid;
+border-radius: 30px;
+background: linear-gradient(202.98deg, #3D8C04 28.36%, #4DA60D 47.01%, #78BF45 82.67%);
+color: white;
+ .domain-titel  {
+font-size:clamp(35px , 4vw ,51px);
+font-weight: 400;
+line-height: 61px;
+ }
+ .domain-discrption {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+ }
+  .dmain-input {
+    height: 78px;
+    padding: 24px;
+    border-radius: 6px;
+    opacity: 0.9px;
+    border: 1px solid #F5F6F3;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+color: #9A998E;    
+  }
+   .black-button  {
+    width: 100%;
+    display: grid;
+    min-height: 78px;
+    place-items: center;
+color: white;
+    background-color: #45503D;
+border-radius: 4px;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+   }
+}
+
+
+.pricing-type {
+font-size:clamp(35px , 4vw ,51px);
+font-weight: 400;
+line-height: 61px;
+}
+.pricing-type.green {
+    color:#4DA60D ;
+}
+.pricing-type.red {
+    color:#F26430;
+
+}
+.pricing-type.gray {
+    color:#9A998E;
+}
+.pricing-discrption {
+color: #9A998E;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+margin-block: 20px;
+}
+.pricing-price {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;  
+    color: #9A998E; 
+    strong {
+        color: #45503D;
+    } 
+}
+
+.Hosting-section {
+    .Hosting-titel {
+font-size:clamp(35px , 4vw ,51px);
+font-weight: 400;
+line-height: 70px;
+color: #45503D;
+    }
+    .Hosting-discrption {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;    
+        color: #9A998E;
+
+    }
+    .Hosting-readMore {
+        --button-color:#f5f6f3;
+        --button-background:#4da60d;
+
+        color:var(--button-color);
+        background:var(--button-background);
+
+        width:146px;
+        height: 54px;
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;   
+        display: grid;
+        place-items: center;
+     
+    }
+}
+
+.subtitel-hosting {
+font-size: 28px;
+font-weight: 400;
+line-height: 35px;
+color: #45503D;
+}
+.card-discrption-hosting {
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+color: #9A998E;
+margin-top: 20px;
+max-width: 30ch;
+}
+
+
+ .plans-section  {
+    img {
+        width: 80px;
+        aspect-ratio: 1;
+
+    }
+    .upper-content {
+        .titel {
+            font-size: clamp(35px , 4vw ,51px);;
+            font-weight: 400;
+            line-height: 61px;   
+            color: #45503D; 
+        }
+        .subtitel {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            color: #9A998E;
+            margin-top: 30px;
+        }
+    }
+    .card-plan-titel {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 35px; 
+        color: #45503D;       
+    }
+    .card-plan-discrption {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #9A998E;  
+        margin-block: 20px 10px;   
+        max-width: 40ch;   
+    }
+    .card-plan-price {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #4DA60D;        
+    }
+ }
+
